@@ -38,49 +38,41 @@ The course combined theoretical concepts with practical implementation in **R**,
 
 | Module | Topic | Description |
 |--------|-------|-------------|
-| 01 | Intro to AWS & RStudio | [AWS EC2/S3 setup for RStudio](labs/lab-01-instructions.html) |
-| 02 | Intro to R Programming | [Data types, vectors, and lists in R](labs/lab-02.html) |
-| 03 | Data Wrangling | [Using `dplyr` and `tibble` for filtering, joining, and summarizing data](labs/lecture-03-tryit.Rmd) |
-| 04 | Data Exploration | [Descriptive statistics, sorting, grouping, and exploratory analysis](labs/lecture-04-tryit.Rmd) |
-| 05 | Data Visualization | [Customizing plots with `ggplot2`](labs/lab-05.Rmd) |
-| 06 | ML Bias-Variance | Understanding bias-variance tradeoff, underfitting vs overfitting |
-| 07 | Linear Regression | [Building and interpreting linear regression models in R](labs/lecture-07-tryit.Rmd) |
-| 08 | Multiple Linear Regression | Multivariate modeling, interactions, and model diagnostics |
-| 09 | Logistic Regression | Classification problems, odds ratios, and confusion matrices |
-| 10 | Cross-Validation | k-fold CV, training/testing splits, and model evaluation metrics |
-| 11 | Variable Selection | Stepwise selection, adjusted R², AIC/BIC criteria |
-| 12 | LASSO Regression | Regularization techniques for feature selection and overfitting control |
-| 13 | Regression Trees | Decision tree structure, splitting criteria, and visualization |
-| 14 | Bagging, Random Forest, Boosting | [Ensemble learning methods to improve model performance](labs/lab-14-instructions.html) |
-| 15 | Neural Networks | [Basic NN structure and training in R](labs/lab-15-instructions.html) |
-| 16 | Causal Analysis | Introduction to causal inference concepts and frameworks |
-| 17 | Statistical Inference | Hypothesis testing, p-values, and confidence intervals |
-| 18 | Randomized Experiments | Experiment design, treatment/control groups, and randomization |
-| 19 | Randomized Limitations | Internal vs external validity, threats to validity |
-| 20 | Workplace Wellness Study | Real-world RCT case study and data interpretation |
-| 21 | Difference-in-Differences | Pre/post treatment analysis for causal effect estimation |
-| 22 | DiD Estimation | Implementing DiD models in R with fixed effects |
-| 23 | Regression Discontinuity | Sharp and fuzzy RD designs, cutoff rules, and visualization |
-| 24 | RD Estimation | Local vs global RD estimation, bandwidth selection, and model fitting |
+| 01 | Intro to AWS & RStudio | Setting up AWS EC2 & S3 for cloud-based RStudio environment. |
+| 02 | Intro to R Programming | Data types, vectors, lists, indexing, and basic R syntax. |
+| 03 | Data Wrangling | Using `dplyr` and `tibble` for filtering, joining, and summarizing data. |
+| 04 | Data Exploration | Descriptive statistics, sorting, grouping, and exploratory analysis. |
+| 05 | Data Visualization | Customizing plots with `ggplot2`: scales, themes, labels, and advanced charts. |
+| 06 | ML Bias-Variance | Understanding bias-variance tradeoff, underfitting vs overfitting. |
+| 07 | Linear Regression | Building and interpreting linear regression models in R. |
+| 08 | Multiple Linear Regression | Multivariate modeling, interactions, and model diagnostics. |
+| 09 | Logistic Regression | Classification problems, odds ratios, and confusion matrices. |
+| 10 | Cross-Validation | k-fold CV, training/testing splits, and model evaluation metrics. |
+| 11 | Variable Selection | Stepwise selection, adjusted R², AIC/BIC criteria. |
+| 12 | LASSO Regression | Regularization techniques for feature selection and overfitting control. |
+| 13 | Regression Trees | Decision tree structure, splitting criteria, and visualization. |
+| 14 | Bagging, Random Forest, Boosting | Ensemble learning methods to improve model performance. |
+| 15 | Neural Networks | Basic NN structure, activation functions, and training in R. |
+| 16 | Causal Analysis | Introduction to causal inference concepts and frameworks. |
+| 17 | Statistical Inference | Hypothesis testing, p-values, and confidence intervals. |
+| 18 | Randomized Experiments | Experiment design, treatment/control groups, and randomization. |
+| 19 | Randomized Limitations | Internal vs external validity, threats to validity. |
+| 20 | Workplace Wellness Study | Real-world RCT case study and data interpretation. |
+| 21 | Difference-in-Differences | Pre/post treatment analysis for causal effect estimation. |
+| 22 | DiD Estimation | Implementing DiD models in R with fixed effects. |
+| 23 | Regression Discontinuity | Sharp and fuzzy RD designs, cutoff rules, and visualization. |
+| 24 | RD Estimation | Local vs global RD estimation, bandwidth selection, and model fitting. |
 
 ---
 
 ## Example Labs
-- **[Lab 01](labs/lab-01-instructions.html):** AWS EC2/S3 setup for RStudio  
-- **[Lab 02](labs/lab-02.html):** Data types, vectors, and lists in R  
-- **[Lab 03](labs/lecture-03-tryit.Rmd):** Data wrangling with tibbles and joins  
-- **[Lab 05](labs/lab-05.Rmd):** Advanced data visualization (custom ggplot2 plots)  
-- **[Lab 14](labs/lab-14-instructions.html):** Bagging, Random Forest, Boosting implementation  
-- **[Lab 15](labs/lab-15-instructions.html):** Neural network modeling in R  
-- **Labs 21–24:** Applied causal inference with DiD and RD methods  
-
----
-
-## Datasets Used
-- [manager.csv](datasets/manager.csv) – Employee survey data  
-- [exe.csv](datasets/exe.csv) – Executive performance data  
-- [ameshousing.csv](datasets/ameshousing.csv) – Ames Housing dataset for regression models  
-- [cleaned_Freddie_Mac.Rdata](datasets/cleaned_Freddie_Mac.Rdata) – Freddie Mac mortgage data  
+- **Lab 01:** AWS EC2/S3 setup for RStudio  
+- **Lab 02:** Data types, vectors, and lists in R  
+- **Lab 03:** Data wrangling with tibbles and joins  
+- **Lab 05:** Advanced data visualization (custom ggplot2 plots)  
+- **Lab 14:** Bagging, Random Forest, Boosting implementation  
+- **Lab 15:** Neural network modeling in R  
+- **Lab 21-24:** Applied causal inference with DiD and RD methods  
 
 ---
 
