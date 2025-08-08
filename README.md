@@ -90,7 +90,6 @@ The course combined theoretical concepts with practical implementation in **R**,
 - **Course:** FIN 550 – Data Analytics  
 - **Institution:** University of Illinois Urbana-Champaign  
 - **Term:** Spring 2025  
-- **Instructor:** [Add Name if needed]  
 
 ---
 
